@@ -1,0 +1,8 @@
+{% extends 'BostonV1_app/test.html' %} 
+{% block content %}
+<ul>
+  {% for user in server_dict %}
+  <li>{{ user.id }} - {{ user.Host_IP }}</li>
+  {% endfor %}
+</ul>
+{% endblock content %}

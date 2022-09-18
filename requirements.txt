@@ -1,0 +1,14 @@
+asgiref==3.3.1
+Django
+psutil
+GPUtil
+django-silk
+datetime
+py-cpuinfo
+django_sql_queries
+psycopg2-binary>=2.8
+sqlparse==0.4.1
+djangorestframework
+pytz==2021.1
+
+
